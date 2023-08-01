@@ -10118,7 +10118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35c19222ee0364749a6b913026a16e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: {x: 0, y: 0}
+  gridSize: {x: 4, y: 3}
 --- !u!4 &1336535277
 Transform:
   m_ObjectHideFlags: 0
