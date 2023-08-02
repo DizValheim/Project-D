@@ -1435,6 +1435,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3455309606611531474, guid: 4def9fea8f0da334a8413013d30aec4c, type: 3}
   m_PrefabInstance: {fileID: 1308833160}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &173020802 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5232663178388710559, guid: b90e266f4ec19684eae31c8b56060a65, type: 3}
+  m_PrefabInstance: {fileID: 5232663178281027079}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &173020803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173020802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de5935112a5497945a9955ea7d6adf36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startCoordinates: {x: 1, y: 1}
+  destinationCoordinates: {x: 5, y: 3}
 --- !u!4 &186947045 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3455309606611531474, guid: 4def9fea8f0da334a8413013d30aec4c, type: 3}
@@ -10118,7 +10137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35c19222ee0364749a6b913026a16e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: {x: 4, y: 3}
+  gridSize: {x: 6, y: 6}
 --- !u!4 &1336535277
 Transform:
   m_ObjectHideFlags: 0

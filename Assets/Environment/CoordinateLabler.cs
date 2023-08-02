@@ -7,10 +7,10 @@ using TMPro;
 [RequireComponent(typeof(TextMeshPro))]
 public class CoordinateLabler : MonoBehaviour
 {
-    [SerializeField] Color defaultColor = Color.cyan;
-    [SerializeField] Color blockedColor = Color.gray;
-    [SerializeField] Color exploredColor = Color.white;
-    [SerializeField] Color pathColor = Color.yellow;
+    [SerializeField] Color defaultColor = Color.black;
+    [SerializeField] Color blockedColor = Color.red;
+    [SerializeField] Color exploredColor = Color.green;
+    [SerializeField] Color pathColor = Color.blue;
 
     GridManager gridManager;
     TextMeshPro label;
@@ -68,13 +68,21 @@ public class CoordinateLabler : MonoBehaviour
         if(node == null) { return; }
 
         if(!node.isWalkable)
+        {
             label.color = blockedColor;
+        }
         else if(node.isPath)
+        {
             label.color = pathColor;
+        }
         else if(node.isExplored)
+        {
             label.color = exploredColor;
+        }
         else
+        {
             label.color = defaultColor;
+        }    
         
     }
 
